@@ -1,5 +1,4 @@
 import React, { useState, useCallback } from 'react';
-import './Joke';
 import './style.css';
 
 export const Joke = ({ userId, userName, text, likes, dislikes }) => {
